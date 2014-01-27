@@ -2,10 +2,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: taxdoc1
+  database: taxdoc1_development
   pool: 5
   username: vernon
-  password: 
+  password: vernj123
 ...
 
 # Warning: The database defined as "test" will be erased and
@@ -14,15 +14,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: taxdoc1
+  database: taxdoc1_test
   pool: 5
-  username: postgres
-  password: 
+  username: vernon
+  password: vernj123
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: taxdoc1
+  database: taxdoc1_production
   pool: 5
   username: vernon
-  password: 
+  password: vernj123
