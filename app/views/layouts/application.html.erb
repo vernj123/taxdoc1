@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Taxdoc1</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+   <title>CERT-116 System | <%= yield(:title) %></title>
+  <%= stylesheet_link_tag    "application", media: "all", 
+                                            "data-turbolinks-track" => true %> 
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+  <%= csrf_meta_tags %> 
 </head>
 <body>
 
@@ -12,3 +13,4 @@
 
 </body>
 </html>
+ 
