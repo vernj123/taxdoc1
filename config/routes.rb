@@ -1,7 +1,12 @@
 Taxdoc1::Application.routes.draw do
   get "static_pages/home"
   get "static_pages/about"
+<<<<<<< HEAD
     # The priority is based upon order of creation: first created -> highest priority.
+=======
+  get "static_pages/contact"
+  # The priority is based upon order of creation: first created -> highest priority.
+>>>>>>> static-pages
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"

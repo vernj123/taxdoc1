@@ -25,8 +25,22 @@ end
    it "should have the title 'About This App'" do
    	 visit '/static_pages/about'
    	 expect(page).to have_title("CERT-116 System | About")
-
   end
 end
+
+describe "Contact page" do
+
+  it "should have content 'Contact'" do
+    visit '/static_pages/contact'
+    expect(page).to have_content('Contact')
+  end
+
+  it "should have the title 'Contact'" do
+     visit '/static_pages/contact'
+     expect(page).to have_title("CERT-116 System | Contact")
+   end
+ end
+
+
 
 end
